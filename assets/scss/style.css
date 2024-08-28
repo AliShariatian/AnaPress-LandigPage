@@ -769,6 +769,7 @@ a {
 .questions .right .accordion .item .text {
   padding: 0 9px;
   color: var(--gray-color);
+  font-size: 16px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease, padding 0.3s ease, margin-top 0.3s ease;
