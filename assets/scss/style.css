@@ -654,88 +654,6 @@ a {
     margin: 0;
   }
 }
-.comments {
-  background-color: #e7f9f9;
-}
-.comments::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 190px;
-  background: #ffffff url("../img/bg/abstract-bg-1.svg") center center/cover no-repeat;
-  z-index: 20;
-}
-.comments::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 220px;
-  z-index: 20;
-  background: #ffffff url("../img/bg/abstract-bg-2.svg") center center/cover no-repeat;
-}
-.comments .content .items {
-  display: flex;
-  transition: transform 0.3s ease-in-out;
-  overflow: hidden;
-}
-.comments .content .items .item {
-  min-width: 100%;
-  box-sizing: border-box;
-  padding: 24px;
-  background-color: var(--white-color);
-  border-radius: 16px;
-  border-top-right-radius: 80px;
-  max-width: 537px;
-  margin: auto;
-}
-.comments .content .items .item img {
-  width: 104px;
-  height: 104px;
-  border-radius: 99px;
-}
-.comments .content .items .item .description {
-  margin-bottom: 0;
-  margin-top: 24px;
-  font-size: 17px;
-  color: var(--dark-color);
-  font-weight: 600;
-  line-height: 26.35px;
-}
-.comments .content .items .item hr {
-  margin: 16px 0;
-  border-color: #e5e5e5;
-}
-.comments .content .items .item .info {
-  display: flex;
-  flex-direction: column;
-}
-.comments .content .items .item .info .name {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--dark-color);
-}
-.comments .content .items .item .info .position {
-  font-size: 14px;
-  font-weight: 600;
-  color: #7c7c7c;
-}
-.comments .content .dots {
-  margin-top: 24px;
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-}
-.comments .content .dots div {
-  width: 10px;
-  height: 10px;
-  background-color: #ccc;
-  border-radius: 50%;
-  cursor: pointer;
-}
-.comments .content .dots .active {
-  background-color: var(--dark-color);
-}
-
 .questions {
   display: flex;
   justify-content: space-between;
@@ -778,6 +696,9 @@ a {
   max-height: 500px;
   padding: 0 9px;
   margin-top: 24px;
+}
+.questions .left {
+  margin-top: 80px;
 }
 .questions .left .banner {
   width: 100%;
