@@ -1,0 +1,20 @@
+:root {
+  /* colors */
+  --primary-color: #33cccc;
+  --secondary-color: #cc3333;
+  --dark-color: #292d32;
+  --gray-color: #8a8a8a;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --slate-color: #eff4f8;
+}
+
+/* media query */
+$mobileTablet: "only screen and (min-width: 0px) and (max-width: 959px)";
+$mobile: "only screen and (min-width: 0px) and (max-width: 719px)";
+$mobileMini: "only screen and (min-width: 0px) and (max-width: 420px)";
+
+/* desktop */
+$desktopLarge: "only screen and (min-width: 1200px) and (max-width: 1439px)";
+$desktop: "only screen and (min-width: 960px) and (max-width: 1199px)";
+$desktopMd: "only screen and (min-width: 960px)";

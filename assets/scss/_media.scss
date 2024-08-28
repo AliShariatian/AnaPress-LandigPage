@@ -1,0 +1,34 @@
+@media #{$desktopLarge} {
+  .container-main {
+    padding-left: 138px !important;
+    padding-right: 138px !important;
+  }
+}
+
+@media #{$desktop} {
+  .container-main {
+    padding-left: 138px !important;
+    padding-right: 138px !important;
+  }
+}
+
+@media #{$mobileTablet} {
+  .container-main {
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+}
+
+@media #{$mobile} {
+  .container-main {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media #{$mobileMini} {
+  .container-main {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

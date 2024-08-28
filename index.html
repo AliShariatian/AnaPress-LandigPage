@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AnaPress</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/scss/style.css" />
+    <script src="./assets/js/fontawesome/all.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <div class="container menu menu-container container-main">
+      <nav class="menu-navbar">
+        <div class="right">
+          <a href="#" class="logo">
+            <img src="./assets/img/Logo.png" alt="Logo" title="Logo" />
+          </a>
+          <!-- <ul class="menu-navbar-list">
+                    <li class="item">
+                        <a class="item-link" href="#">
+                            <img src="./assets/img/icon/humbergur.svg" alt="">
+                            <span>دسته بندی کالاها</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="item-link" href="#">
+                            <img src="./assets/img/icon/precerntage.svg" alt="">
+                            <span>تخفیف ها و پیشنهادها</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="item-link" href="#">
+                            <img src="./assets/img/icon/fire.svg" alt="">
+                            <span>پرفروش ترین ها</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="item-link" href="#">
+                            <img src="./assets/img/icon/gitCard.svg" alt="">
+                            <span>کارت هدیه</span>
+                        </a>
+                    </li>
+                </ul> -->
+        </div>
+        <div class="left">
+          <!-- <a class="menu-navbar-search">
+                    <img src="./assets/img/icon/search.svg" alt="">
+                </a>
+                <a class="menu-navbar-shoppingCart">
+                    <img src="./assets/img/icon/shoppingCart.svg" alt="">
+                </a> -->
+          <a href="#" class="menu-navbar-btn d-inline-flex align-items-center">
+            <img src="./assets/img/icon/user2.svg" />
+            <span> درخواست مشاوره </span>
+          </a>
+        </div>
+      </nav>
+
+      <header class="header">
+        <div class="right video-container">
+          <!-- <video class="main-video" src="https://www.w3schools.com/html/mov_bbb.mp4">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"/>
+                </video> -->
+          <img class="banner" src="/assets/img/video.png" alt="" />
+          <img class="play" src="/assets/img/icon/play.png" />
+        </div>
+        <div class="left">
+          <h1 class="title">
+            <span>آناپرس،</span>
+            راهکاری ساده و سریع برای ساخت وبسایت حرفه‌ای و کاربرپسند
+          </h1>
+          <div class="subTitle">بدون نیاز به دانش فنی! با انتخاب قالب‌های متنوع و رابط کاربری آسان، می‌توانید وب‌سایت کسب‌وکار یا فروشگاه آنلاین خود را در کمترین زمان ممکن راه‌اندازی کنید.</div>
+          <div class="bottom">
+            <div class="bottom-title">اگر به دنبال شروعی موفق در فضای آنلاین هستی، با آنا پرس همین حالا شروع کن!</div>
+            <div class="bottom-subTitle">با ارسال شماره خود، کارشناسان ما در اسرع وقت با شما تماس خواهند گرفت</div>
+
+            <div class="bottom-form">
+              <input class="bttom-form-input" placeholder="مثال: 09125308421" />
+              <button class="bottom-form-btn">ارسال</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- ---------------- portfolio ---------------- -->
+      <section class="portfolio">
+        <span class="title">نمونه کارها</span>
+
+        <div class="tabs">
+          <span data-category="shop">فروشگاهی</span>
+          <span data-category="company">شرکتی</span>
+          <span data-category="business">کسب و کار و خدمات</span>
+          <span data-category="infographic">اینفوگرافی و شخصی</span>
+        </div>
+
+        <div class="items">
+          <!-- row 1 -->
+          <div class="item" data-category="shop">
+            <div class="detail">
+              <span class="title">فروشگاه اینترتی سین استایل</span>
+              <span class="description">پوشاک</span>
+              <span class="site">www.synstyle.ir</span>
+              <a href="#" class="link">
+                لینک مشاهده
+                <img class="icon" src="./assets/img/icon/arrow.svg" />
+              </a>
+            </div>
+            <img class="banner" src="./assets/img/portfolio/portfolio2.png" />
+          </div>
+
+          <div class="item" data-category="shop">
+            <div class="detail">
+              <span class="title">فروشگاه اینترتی لفتیکا</span>
+              <span class="description">لوازم منزل، آرایشی بهداشتی</span>
+              <span class="site">www.laftika.com</span>
+              <a href="#" class="link">
+                لینک مشاهده
+                <img class="icon" src="./assets/img/icon/arrow.svg" />
+              </a>
+            </div>
+            <img class="banner" src="./assets/img/portfolio/portfolio1.png" />
+          </div>
+
+          <!-- row 2 -->
+          <div class="item" data-category="company">
+            <div class="detail">
+              <span class="title">فروشگاه اینترتی سین استایل</span>
+              <span class="description">پوشاک</span>
+              <span class="site">www.synstyle.ir</span>
+              <a href="#" class="link">
+                لینک مشاهده
+                <img class="icon" src="./assets/img/icon/arrow.svg" />
+              </a>
+            </div>
+            <img class="banner" src="./assets/img/portfolio/portfolio2.png" />
+          </div>
+
+          <div class="item" data-category="shop">
+            <div class="detail">
+              <span class="title">فروشگاه اینترتی لفتیکا</span>
+              <span class="description">لوازم منزل، آرایشی بهداشتی</span>
+              <span class="site">www.laftika.com</span>
+              <a href="#" class="link">
+                لینک مشاهده
+                <img class="icon" src="./assets/img/icon/arrow.svg" />
+              </a>
+            </div>
+            <img class="banner" src="./assets/img/portfolio/portfolio1.png" />
+          </div>
+
+          <!-- row 3 -->
+          <div class="item" data-category="business">
+            <div class="detail">
+              <span class="title">فروشگاه اینترتی سین استایل</span>
+              <span class="description">پوشاک</span>
+              <span class="site">www.synstyle.ir</span>
+              <a href="#" class="link">
+                لینک مشاهده
+                <img class="icon" src="./assets/img/icon/arrow.svg" />
+              </a>
+            </div>
+            <img class="banner" src="./assets/img/portfolio/portfolio2.png" />
+          </div>
+
+          <div class="item" data-category="business">
+            <div class="detail">
+              <span class="title">فروشگاه اینترتی لفتیکا</span>
+              <span class="description">لوازم منزل، آرایشی بهداشتی</span>
+              <span class="site">www.laftika.com</span>
+              <a href="#" class="link">
+                لینک مشاهده
+                <img class="icon" src="./assets/img/icon/arrow.svg" />
+              </a>
+            </div>
+            <img class="banner" src="./assets/img/portfolio/portfolio1.png" />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ---------------- our customers ---------------- -->
+    <!-- <section class="customers">
+      <img class="abstract-background" src="./assets/img/bg/abstract-background.svg" />
+      
+      <div class="container content container-main">
+        <span class="title">مشتریان ما</span>
+        
+        <div class="items">
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+        
+        <div class="dots">
+          <div></div>
+          <div></div>
+          <div class="active"></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- your ---------------- voices ---------------- -->
+    <section class="your-voices">
+      <div class="container content container-main">
+        <span class="title">صدای شما</span>
+
+        <div class="items">
+          <div class="item">
+            <img class="person" src="./assets/img/your-voices/1.png" />
+
+            <div class="info">
+              <span class="name">علی محمودی</span>
+              <span class="position">مدیر عامل</span>
+            </div>
+
+            <div class="player">
+              <audio id="audio-player" src="./assets/audio/fired up - NFS.mp3"></audio>
+              <div class="tools">
+                <img class="volume" src="./assets/img/icon/volume.svg" />
+                <div class="time-line">
+                  <div class="progress-bar">
+                    <div class="trigger"></div>
+                    <div class="progress">
+                      <div class="played"></div>
+                    </div>
+                  </div>
+                  <div class="time">
+                    <span id="total-time">00:00</span>
+                    <span>/</span>
+                    <span id="current-time">00:00</span>
+                  </div>
+                </div>
+                <img class="play" src="./assets/img/icon/play-triangle.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="person" src="./assets/img/your-voices/1.png" />
+
+            <div class="info">
+              <span class="name">علی محمودی</span>
+              <span class="position">مدیر عامل</span>
+            </div>
+
+            <div class="player">
+              <audio id="audio-player" src="./assets/audio/Vali Ghaemi - Gatel 18 Ghadam.mp3"></audio>
+              <div class="tools">
+                <img class="volume" src="./assets/img/icon/volume.svg" />
+                <div class="time-line">
+                  <div class="progress-bar">
+                    <div class="trigger"></div>
+                    <div class="progress">
+                      <div class="played"></div>
+                    </div>
+                  </div>
+                  <div class="time">
+                    <span id="total-time">00:00</span>
+                    <span>/</span>
+                    <span id="current-time">00:00</span>
+                  </div>
+                </div>
+                <img class="play" src="./assets/img/icon/play-triangle.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="person" src="./assets/img/your-voices/1.png" />
+
+            <div class="info">
+              <span class="name">علی محمودی</span>
+              <span class="position">مدیر عامل</span>
+            </div>
+
+            <div class="player">
+              <audio id="audio-player" src="./assets/audio/fired up - NFS.mp3"></audio>
+              <div class="tools">
+                <img class="volume" src="./assets/img/icon/volume.svg" />
+                <div class="time-line">
+                  <div class="progress-bar">
+                    <div class="trigger"></div>
+                    <div class="progress">
+                      <div class="played"></div>
+                    </div>
+                  </div>
+                  <div class="time">
+                    <span id="total-time">00:00</span>
+                    <span>/</span>
+                    <span id="current-time">00:00</span>
+                  </div>
+                </div>
+                <img class="play" src="./assets/img/icon/play-triangle.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="person" src="./assets/img/your-voices/1.png" />
+
+            <div class="info">
+              <span class="name">علی محمودی</span>
+              <span class="position">مدیر عامل</span>
+            </div>
+
+            <div class="player">
+              <audio id="audio-player" src="./assets/audio/Vali Ghaemi - Gatel 18 Ghadam.mp3"></audio>
+              <div class="tools">
+                <img class="volume" src="./assets/img/icon/volume.svg" />
+                <div class="time-line">
+                  <div class="progress-bar">
+                    <div class="trigger"></div>
+                    <div class="progress">
+                      <div class="played"></div>
+                    </div>
+                  </div>
+                  <div class="time">
+                    <span id="total-time">00:00</span>
+                    <span>/</span>
+                    <span id="current-time">00:00</span>
+                  </div>
+                </div>
+                <img class="play" src="./assets/img/icon/play-triangle.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="person" src="./assets/img/your-voices/1.png" />
+
+            <div class="info">
+              <span class="name">علی محمودی</span>
+              <span class="position">مدیر عامل</span>
+            </div>
+
+            <div class="player">
+              <audio id="audio-player" src="./assets/audio/fired up - NFS.mp3"></audio>
+              <div class="tools">
+                <img class="volume" src="./assets/img/icon/volume.svg" />
+                <div class="time-line">
+                  <div class="progress-bar">
+                    <div class="trigger"></div>
+                    <div class="progress">
+                      <div class="played"></div>
+                    </div>
+                  </div>
+                  <div class="time">
+                    <span id="total-time">00:00</span>
+                    <span>/</span>
+                    <span id="current-time">00:00</span>
+                  </div>
+                </div>
+                <img class="play" src="./assets/img/icon/play-triangle.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="person" src="./assets/img/your-voices/1.png" />
+
+            <div class="info">
+              <span class="name">علی محمودی</span>
+              <span class="position">مدیر عامل</span>
+            </div>
+
+            <div class="player">
+              <audio id="audio-player" src="./assets/audio/Vali Ghaemi - Gatel 18 Ghadam.mp3"></audio>
+              <div class="tools">
+                <img class="volume" src="./assets/img/icon/volume.svg" />
+                <div class="time-line">
+                  <div class="progress-bar">
+                    <div class="trigger"></div>
+                    <div class="progress">
+                      <div class="played"></div>
+                    </div>
+                  </div>
+                  <div class="time">
+                    <span id="total-time">00:00</span>
+                    <span>/</span>
+                    <span id="current-time">00:00</span>
+                  </div>
+                </div>
+                <img class="play" src="./assets/img/icon/play-triangle.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="person" src="./assets/img/your-voices/1.png" />
+
+            <div class="info">
+              <span class="name">علی محمودی</span>
+              <span class="position">مدیر عامل</span>
+            </div>
+
+            <div class="player">
+              <audio id="audio-player" src="./assets/audio/fired up - NFS.mp3"></audio>
+              <div class="tools">
+                <img class="volume" src="./assets/img/icon/volume.svg" />
+                <div class="time-line">
+                  <div class="progress-bar">
+                    <div class="trigger"></div>
+                    <div class="progress">
+                      <div class="played"></div>
+                    </div>
+                  </div>
+                  <div class="time">
+                    <span id="total-time">00:00</span>
+                    <span>/</span>
+                    <span id="current-time">00:00</span>
+                  </div>
+                </div>
+                <img class="play" src="./assets/img/icon/play-triangle.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="person" src="./assets/img/your-voices/1.png" />
+
+            <div class="info">
+              <span class="name">علی محمودی</span>
+              <span class="position">مدیر عامل</span>
+            </div>
+
+            <div class="player">
+              <audio id="audio-player" src="./assets/audio/Vali Ghaemi - Gatel 18 Ghadam.mp3"></audio>
+              <div class="tools">
+                <img class="volume" src="./assets/img/icon/volume.svg" />
+                <div class="time-line">
+                  <div class="progress-bar">
+                    <div class="trigger"></div>
+                    <div class="progress">
+                      <div class="played"></div>
+                    </div>
+                  </div>
+                  <div class="time">
+                    <span id="total-time">00:00</span>
+                    <span>/</span>
+                    <span id="current-time">00:00</span>
+                  </div>
+                </div>
+                <img class="play" src="./assets/img/icon/play-triangle.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------- team members ---------------- -->
+    <section class="team-members container container-main">
+      <div class="content">
+        <span class="title">اعضای تیم آناپرس</span>
+        <p class="description">
+          با آنا پرس، فرقی نمی‌کند که کسب‌وکار شما کوچک است یا بزرگ، ما در کنار شما هستیم تا بدون نیاز به دانش برنامه‌نویسی، یک سایت حرفه‌ای را با چند کلیک ساده راه‌اندازی کنید. اگر همیشه رویای داشتن
+          یک وب‌سایت برای کسب درآمد اینترنتی را در سر داشتید، حالا زمان تحقق آن رسیده است. با آنا پرس، امروز می‌توانید شروعی قدرتمند برای موفقیت آنلاین خود رقم بزنید. آنا پرس با ابزارهای قدرتمند و
+          رابط کاربری ساده، به شما این امکان را می‌دهد تا در کمترین زمان ممکن و با بهترین کیفیت، وب‌سایت دلخواهتان را بسازید.
+        </p>
+
+        <div class="member">
+          <span class="name">مقداد محمودی</span>
+          <span class="position">FronEnd Developer</span>
+        </div>
+      </div>
+
+      <div class="images-slider">
+        <div class="image-slide">
+          <img src="./assets/img/team-members/1.png" />
+          <img class="ellipse" src="./assets/img/bg/ellipse.svg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------- yours comments ---------------- -->
+
+    <!-- <section class="comments">
+      <div class="container content container-main">
+        <span class="title">نظرات شما</span>
+
+        <div class="items" id="slider">
+          <div class="item">
+            <img src="./assets/img/comments/1.png" />
+
+            <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+
+            <hr />
+
+            <div class="info">
+              <span class="name">مقداد محمودی</span>
+              <span class="position">مدیر عامل</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./assets/img/comments/1.png" />
+
+            <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+
+            <hr />
+
+            <div class="info">
+              <span class="name">علی محمودی</span>
+              <span class="position">مدیر عامل</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./assets/img/comments/1.png" />
+
+            <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+
+            <hr />
+
+            <div class="info">
+              <span class="name">علیرضا محمودی</span>
+              <span class="position">مدیر عامل</span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./assets/img/comments/1.png" />
+
+            <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+
+            <hr />
+
+            <div class="info">
+              <span class="name">مقداد محمودی</span>
+              <span class="position">مدیر عامل</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./assets/img/comments/1.png" />
+
+            <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+
+            <hr />
+
+            <div class="info">
+              <span class="name">مقداد محمودی</span>
+              <span class="position">مدیر عامل</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="dots">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="comments">
+      <div class="container content container-main">
+        <span class="title">نظرات شما</span>
+
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/img/comments/1.png" alt="Comment 1" />
+              <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+              <hr />
+              <div class="info">
+                <span class="name">مقداد محمودی</span>
+                <span class="position">مدیر عامل</span>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./assets/img/comments/1.png" alt="Comment 1" />
+              <p class="description">این یک متن آزمایشی است که برای بررسی نحوه نمایش نوشته شده است.</p>
+              <hr />
+              <div class="info">
+                <span class="name">علی رضایی</span>
+                <span class="position">توسعه‌دهنده ارشد</span>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./assets/img/comments/1.png" alt="Comment 1" />
+              <p class="description">این یک نمونه داده ساختگی برای تست اسلایدر است.</p>
+              <hr />
+              <div class="info">
+                <span class="name">زهرا مرادی</span>
+                <span class="position">مدیر پروژه</span>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./assets/img/comments/1.png" alt="Comment 1" />
+              <p class="description">لورم ایپسوم متن ساختگی با سادگی نامفهوم از صنعت چاپ است.</p>
+              <hr />
+              <div class="info">
+                <span class="name">سعید موسوی</span>
+                <span class="position">طراح گرافیک</span>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./assets/img/comments/1.png" alt="Comment 1" />
+              <p class="description">این یک پیام آزمایشی است برای نمایش قابلیت های اسلایدر.</p>
+              <hr />
+              <div class="info">
+                <span class="name">حسن میرزایی</span>
+                <span class="position">مشاور</span>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./assets/img/comments/1.png" alt="Comment 1" />
+              <p class="description">محتوای ساختگی برای تست اسلایدر و نمایش درست داده‌ها.</p>
+              <hr />
+              <div class="info">
+                <span class="name">فرزانه احمدی</span>
+                <span class="position">مدیر مارکتینگ</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- Add Navigation -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------- questions ---------------- -->
+    <section class="questions container container-main">
+      <div class="right">
+        <span class="title">سوالات متداول</span>
+
+        <div class="accordion">
+          <div class="item">
+            <span class="title">چگونه می‌توانم یک وب‌سایت با آنا پرس بسازم؟</span>
+
+            <p class="text">
+              با آنا پرس، فرقی نمی‌کند که کسب‌وکار شما کوچک است یا بزرگ، ما در کنار شما هستیم تا بدون نیاز به دانش برنامه‌نویسی، یک سایت حرفه‌ای را با چند کلیک ساده راه‌اندازی کنید. اگر همیشه رویای
+              داشتن یک وب‌سایت برای کسب درآمد اینترنتی را در سر داشتید، حالا زمان تحقق آن رسیده است. با آنا پرس، امروز می‌توانید شروعی قدرتمند برای موفقیت آنلاین خود رقم بزنید. آنا پرس با ابزارهای
+              قدرتمند و رابط کاربری ساده، به شما این امکان را می‌دهد تا در کمترین زمان ممکن و با بهترین کیفیت، وب‌سایت دلخواهتان را بسازید.
+            </p>
+          </div>
+
+          <div class="item">
+            <span class="title">آیا برای استفاده از آنا پرس نیاز به دانش برنامه‌نویسی دارم؟</span>
+
+            <p class="text">
+              با آنا پرس، فرقی نمی‌کند که کسب‌وکار شما کوچک است یا بزرگ، ما در کنار شما هستیم تا بدون نیاز به دانش برنامه‌نویسی، یک سایت حرفه‌ای را با چند کلیک ساده راه‌اندازی کنید. اگر همیشه رویای
+              داشتن یک وب‌سایت برای کسب درآمد اینترنتی را در سر داشتید، حالا زمان تحقق آن رسیده است. با آنا پرس، امروز می‌توانید شروعی قدرتمند برای موفقیت آنلاین خود رقم بزنید. آنا پرس با ابزارهای
+              قدرتمند و رابط کاربری ساده، به شما این امکان را می‌دهد تا در کمترین زمان ممکن و با بهترین کیفیت، وب‌سایت دلخواهتان را بسازید.
+            </p>
+          </div>
+
+          <div class="item">
+            <span class="title">چگونه می‌توانم قالب مناسب برای وب‌سایتم را انتخاب کنم؟</span>
+
+            <p class="text">
+              با آنا پرس، فرقی نمی‌کند که کسب‌وکار شما کوچک است یا بزرگ، ما در کنار شما هستیم تا بدون نیاز به دانش برنامه‌نویسی، یک سایت حرفه‌ای را با چند کلیک ساده راه‌اندازی کنید. اگر همیشه رویای
+              داشتن یک وب‌سایت برای کسب درآمد اینترنتی را در سر داشتید، حالا زمان تحقق آن رسیده است. با آنا پرس، امروز می‌توانید شروعی قدرتمند برای موفقیت آنلاین خود رقم بزنید. آنا پرس با ابزارهای
+              قدرتمند و رابط کاربری ساده، به شما این امکان را می‌دهد تا در کمترین زمان ممکن و با بهترین کیفیت، وب‌سایت دلخواهتان را بسازید.
+            </p>
+          </div>
+
+          <div class="item">
+            <span class="title">مراحل راه‌اندازی یک فروشگاه آنلاین با آنا پرس چگونه است؟</span>
+
+            <p class="text">
+              با آنا پرس، فرقی نمی‌کند که کسب‌وکار شما کوچک است یا بزرگ، ما در کنار شما هستیم تا بدون نیاز به دانش برنامه‌نویسی، یک سایت حرفه‌ای را با چند کلیک ساده راه‌اندازی کنید. اگر همیشه رویای
+              داشتن یک وب‌سایت برای کسب درآمد اینترنتی را در سر داشتید، حالا زمان تحقق آن رسیده است. با آنا پرس، امروز می‌توانید شروعی قدرتمند برای موفقیت آنلاین خود رقم بزنید. آنا پرس با ابزارهای
+              قدرتمند و رابط کاربری ساده، به شما این امکان را می‌دهد تا در کمترین زمان ممکن و با بهترین کیفیت، وب‌سایت دلخواهتان را بسازید.
+            </p>
+          </div>
+
+          <div class="item">
+            <span class="title">آیا می‌توانم دامنه اختصاصی خودم را به وب‌سایتم متصل کنم؟</span>
+
+            <p class="text">
+              با آنا پرس، فرقی نمی‌کند که کسب‌وکار شما کوچک است یا بزرگ، ما در کنار شما هستیم تا بدون نیاز به دانش برنامه‌نویسی، یک سایت حرفه‌ای را با چند کلیک ساده راه‌اندازی کنید. اگر همیشه رویای
+              داشتن یک وب‌سایت برای کسب درآمد اینترنتی را در سر داشتید، حالا زمان تحقق آن رسیده است. با آنا پرس، امروز می‌توانید شروعی قدرتمند برای موفقیت آنلاین خود رقم بزنید. آنا پرس با ابزارهای
+              قدرتمند و رابط کاربری ساده، به شما این امکان را می‌دهد تا در کمترین زمان ممکن و با بهترین کیفیت، وب‌سایت دلخواهتان را بسازید.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="left">
+        <img class="banner" src="assets/img/questions/q-marks.jpg" />
+
+        <div class="content">
+          <span class="title">سوالات دیگه ای دارید؟ از کارشناسان ما بپرسید</span>
+          <p class="description">کافیه تا شماره موبایل‌تان را وارد کنید، کارشناسان ما در سریع‌ترین زمان با شما تماس خواهند گرفت.</p>
+          <form class="form">
+            <input type="number" placeholder="مثال: ۰۹۱۲۹۸۷۶۵۴۳" />
+            <button type="button">ثبت درخواست مشاوره</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container container-main">
+      <div class="divider"></div>
+
+      <!-- ---------------- contact-us ---------------- -->
+      <section class="contact-us">
+        <div class="item">
+          <div class="header">
+            <div class="icon">
+              <img src="./assets/img/icon/call.svg" />
+            </div>
+            <span class="type">تلفن ثابت</span>
+          </div>
+
+          <p class="time">ساعات پاسخگویی شنبه تا چهارشنبه از ساعت ۸ تا ۱۹</p>
+
+          <div class="numbers">
+            <a href="tel:0219876543">۰۲۱-۹۸۷۶۵۴۳</a>
+            <a href="tel:0219876543">۰۲۱-۹۸۷۶۵۴۳</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="header">
+            <div class="icon">
+              <img src="./assets/img/icon/mobile.svg" />
+            </div>
+            <span class="type">شماره همراه</span>
+          </div>
+
+          <p class="time">ساعات پاسخگویی همه روزه از ساعت ۸ تا ۱۹</p>
+
+          <div class="numbers">
+            <a href="tel:09129876543">۰۹۱۲۹۸۷۶۵۴۳</a>
+            <a href="tel:09129876543">۰۹۱۲۹۸۷۶۵۴۳</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="header">
+            <div class="icon">
+              <img src="./assets/img/icon/mail.svg" />
+            </div>
+            <span class="type">ایمیل</span>
+          </div>
+
+          <div class="mail">
+            <a href="mailto:teslacommerce@gmail.com">TeslaCommerce@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="address">
+          <div class="header">
+            <div class="icon">
+              <img src="./assets/img/icon/location.svg" />
+            </div>
+            <span class="type">آدرس پستی</span>
+          </div>
+
+          <p class="text">تهران، سبلان شمالی ، نبش کوچه بی غم، ساختمان سینا، آسانسور سمت راست، طبقه دوم</p>
+        </div>
+      </section>
+
+      <div class="divider" style="--divider-height: 1px; --divider-margin-top: 35px"></div>
+
+      <!-- ---------------- description ---------------- -->
+      <section class="footer-description">
+        <span>فروشگاه اینترنتی آناپرس</span>
+
+        <p>
+          یک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی متنوع، باکیفیت و دارای قیمت مناسب را در مدت زمان ی کوتاه به دست مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛
+          ویژگی‌هایی که فروشگاه اینترنتی دیجی‌کالا سال‌هاست بر روی آن‌ها کار کرده و توانسته از این طریق مشتریان ثابت خود را داشته باشد. یکی از مهم‌ترین دغدغه‌های کاربران دیجی‌کالا یا هر فروشگاه‌
+          اینترنتی دیگری، این است که کالای خریداری شده چه زمانی به دستشان می‌رسد. دیجی‌کالا شیوه‌های مختلفی از ارسال را متناسب با فروشنده کالا،‌ مقصد کالا و همچنین نوع کالا در اختیار کاربران خود قرار
+          می‌دهد. هر یک از
+          <a href="#">روش های ارسال دیجی کالا</a>
+          شرایط و ویژگی‌های خاص خود را دارند که ممکن است گاهی برای کاربران جدید، مبهم و پیچیده به نظر برسند. برای آگاهی بیشتر مشتریان از خدمات دیجی‌کالا، این فروشگاه اینترنتی در بخشی از وب‌سایت خود
+          راهنمای کاملی از شیوه‌‌های ارسال را به صورت ساده و به دور از پیچیدگی، قرار داده است که شامل ۸ نوع ارسال کالا به روش‌های زیر است: ارسال امروز، دریافت حضوری، دریافت از گنجه، ارسال توسط
+          فروشنده، ارسال عادی، ارسال کالاهای بزرگ، سنگین و فوق سنگین، ارسال سریع سوپرمارکتی، ارسال با پست
+        </p>
+      </section>
+
+      <!-- TODO -->
+      <!-- ---------------- certifications ---------------- -->
+      <section class="certifications"></section>
+
+      <div class="divider" style="--divider-height: 8px; --divider-margin-top: 40px"></div>
+
+      <!-- ---------------- creator ---------------- -->
+      <section class="creator">
+        <span>طراحی و توسعه </span>
+        <a href="#" target="_blank">آناپرس</a>
+      </section>
+    </footer>
+
+    <!-- background line pattern -->
+    <img class="bg-line-pattern" src="./assets/img/bg/bg-pattern.svg" />
+
+    <script type="module" src="./assets/js/utils/tabs.js"></script>
+    <script type="module" src="./assets/js/utils/audio-player.js"></script>
+    <script type="module" src="./assets/js/utils/slider.js"></script>
+    <script type="module" src="./assets/js/utils/accordion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </body>
+</html>

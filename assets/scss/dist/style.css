@@ -1,0 +1,58 @@
+:root {
+  --primary-color: #33CCCC;
+  --secondry-color: #CC3333;
+  --dark-color: #292D32;
+  --gray-color: #8A8A8A;
+  --black-color: #000000;
+  --white-color: #ffffff;
+}
+
+@font-face {
+  font-family: "YekanBakh";
+  src: url("../fonts/YekanBakh/VariableFont/Webfonts/woff/YekanBakh-VF.woff") format("woff"), url("../fonts/YekanBakh/VariableFont/Webfonts/woff/YekanBakhFaNum-VF.woff") format("woff"), url("../fonts/YekanBakh/VariableFont/Webfonts/woff//YekanBakhNoEn-VF.woff") format("woff");
+}
+@font-face {
+  font-family: "YekanBakhRegular";
+  src: url("../fonts/YekanBakh/FontFamily/Webfonts/woff/YekanBakh-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "YekanBakhRegular";
+  src: url("../fonts/YekanBakh/FontFamily/Webfonts/woff2/YekanBakh-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "YekanBakhRegular";
+  src: url("../fonts/YekanBakh/FontFamily/otf/YekanBakh-Regular.otf") format("otf");
+}
+@font-face {
+  font-family: "YekanBakhBold";
+  src: url("../fonts/YekanBakh/FontFamily/Webfonts/woff/YekanBakh-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "YekanBakhBold";
+  src: url("../fonts/YekanBakh/FontFamily/otf/YekanBakh-Bold.otf") format("otf");
+}
+@font-face {
+  font-family: "YekanBakhBold";
+  src: url("../fonts/YekanBakh/FontFamily/Webfonts/woff/YekanBakh-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "YekanBakhSemiBold";
+  src: url("../fonts/YekanBakh/FontFamily/otf/YekanBakh-SemiBold.otf") format("otf");
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "YekanBakh" !important;
+  direction: rtl !important;
+}
+
+i {
+  font-family: "FontAwesome" !important;
+}
+
+.main-container {
+  max-width: 1644px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
