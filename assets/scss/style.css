@@ -290,7 +290,7 @@ a {
   display: flex;
   flex-direction: column;
   right: 0;
-  top: 180px;
+  top: 100px;
 }
 .portfolio .items .item .detail * {
   font-weight: 600;
